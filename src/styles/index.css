@@ -1,0 +1,50 @@
+html, body {
+    background-image: url('../../public/stardust.png');
+    font-family: 'Roboto Slab', sans-serif !important;
+}
+
+#statusOverview {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+#tooltip {
+    color: white;
+    height: 100px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    background: black;
+    padding: 1em;
+    width: 500px;
+    border: 1px solid grey;
+}
+
+.loginForm {
+    margin-top: 4em;
+}
+
+#loginTitle {
+    padding-bottom: 0 !important;
+    text-align: center !important;
+}
+
+.loginButton button div div, .loginButton button div  {
+    height: 50px !important;
+    line-height: 55px !important;
+}
+
+.chevronButton {
+    min-width: 40px !important;
+    margin: 15px 15px;
+}
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+}
